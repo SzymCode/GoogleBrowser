@@ -1,14 +1,17 @@
+import { ProfileIcon } from "../components"
+
 export default function HomeHeader(): JSX.Element {
   return (
-    <header className="h-16 flex justify-between md:justify-end items-center gap-4 px-5">
-      <div className="flex gap-4">
-        <span className="text-black/[0.87] text-[13px] line-height hover:underline cursor-pointer">
+    <header className="home-header-container">
+      <div className="home-headers">
+        <span className="home-header">
           Gmail
         </span>
-        <span className="text-black/[0.87] text-[13px] line-height hover:underline cursor-pointer">
+        <span className="home-header">
           Images
         </span>
       </div>
+      <ProfileIcon/>
     </header>
   )
 }
