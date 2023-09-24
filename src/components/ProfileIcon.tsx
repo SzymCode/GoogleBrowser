@@ -2,7 +2,7 @@ import { TbGridDots } from "react-icons/tb"
 
 const Profile =  require("../assets/szymcode.png")
 
-export default function ProfileIcon() {
+export default function ProfileIcon(): JSX.Element {
   return (
     <div className="profile-container">
       <span className="profile profile-dots">

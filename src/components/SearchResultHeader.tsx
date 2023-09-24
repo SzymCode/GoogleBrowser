@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
-import { useState } from "react"
+import { useContext, useState, useEffect } from "react"
 import { GoSearch } from "react-icons/go"
 import { BsImage } from "react-icons/bs"
 import { BiNews } from "react-icons/bi"
 import { RiVideoLine } from "react-icons/ri"
 import { SlTag } from "react-icons/sl"
 
-import SearchInput from "./SearchInput"
-import ProfileIcon from "./ProfileIcon"
+import { ProfileIcon, SearchInput } from "../components"
+import { Context } from "../utils/ContextApi"
 
 const Logo = require("../assets/google-logo.png")
 
@@ -27,9 +27,16 @@ interface MenuItem {
 
 export default function SearchResultHeader(): JSX.Element {
   const [selectedMenu, setSelectedMenu] = useState("All")
+  const { setImageSearch } = useContext(Context)
+
+  useEffect(() => {
+      return () => setImageSearch(false)
+  }, [])
 
   const clickHandler = (menuItem: MenuItem) => {
+    let isTypeImage = menuItem.name === "Images"
     setSelectedMenu(menuItem.name)
+    setImageSearch(isTypeImage ? true : false)
   }
 
   return (

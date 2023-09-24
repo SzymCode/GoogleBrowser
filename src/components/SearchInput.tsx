@@ -7,7 +7,7 @@ const MicIcon = require("../assets/mic.png")
 const ImageIcon = require("../assets/image.png")
 
 
-export default function SearchInput() {
+export default function SearchInput(): JSX.Element {
   const { query } = useParams<{ query: string }>()
   const [searchQuery, setSearchQuery] = useState<string>(query || "")
   const history = useHistory()
