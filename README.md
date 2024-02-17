@@ -1,4 +1,4 @@
-# GoogleBrowser <div> ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&style=plastic) [![React](https://shields.io/badge/React-black?logo=react&style=for-the-badge%22)](https://reactjs.org/) [![HTML5](https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white&style=flat)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) </div>
+# GoogleBrowser <div> [![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&style=plastic)](https://www.typescriptlang.org) [![React](https://shields.io/badge/React-black?logo=react&style=for-the-badge%22)](https://reactjs.org/) [![HTML5](https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white&style=flat)](https://html.com) [![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) </div>
 
 Google browser clone built using Google Search API
 
